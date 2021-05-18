@@ -2,7 +2,7 @@
 """Description"""
 
 
-class square():
+class Square():
     """Description"""
 
     def __init__(self, *args, **kwargs):
@@ -25,7 +25,7 @@ class square():
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.permiterOfMySquare())
